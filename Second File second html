@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<!-- html is the base element for any html file -->
+<html>
+
+	<!-- head section include the details about the HTML page -->
+    <head>
+			<!-- title is the version declaration to HTML5. is a special element-->
+			<title>My Friends</title>
+    </head>
+    
+	<!-- body section include the contents to be desplayed from the browser -->
+	<body>
+	
+	
+	    <!-- h1 to h6 : are different sizes of headings -->
+		<h4>I'm Collecting My friend's Details</h4> 
+			
+		<!-- table : is defining table in HTML 
+				border    :: attribute determine the boder of the table 
+				tr        :: is the table- row element within the table 
+				th        :: is the table- heading element within the table
+				td        :: is the table- data element within the table 		
+		-->
+		<table border = "3" >
+			<tr>
+				<th> My Friend's name</th>
+				<th> His/Her Details</th> 
+			</tr>
+			<tr>
+				<td> Gangulal 	  </td>
+				<td> 
+					 <!-- ol : is for ordered list 
+							li   :: is the list-item element within the table 	
+					 -->
+					<ol>
+						<li> Age is 28.</li>
+						<li> Hair color is Black.</li>
+						<li> He is good in writing.</li>
+					</ol>
+				</td> 
+			</tr>
+			<tr>
+				<td> Netushi 	  </td>
+				<td>  
+					 <!-- ul : is for un-ordered list 
+							li   :: is the list-item element within the table 	
+					 -->
+					<ul>
+						<li> Age is 27.</li>
+						<li> Hair color is Brown.</li>
+						<li> She is good in bussiness.</li>
+					</ul>
+				</td> 
+			</tr>				
+		</table>
+					
+    </body>
+
+</html>
